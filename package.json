@@ -1,9 +1,22 @@
 {
-  "name": "alber",
+  "name": "albertenez",
+  "description": "Personal WebPage Albert sabaTE martiNEZ",
+  "keywords": [
+    "albert", "alber", "sabate", "martinez", "tenez", "developer", "javascript",
+    "react", "engineer", "node", "nodejs", "node.js", "senior", "full-stack"
+  ],
   "version": "0.1.0",
-  "homepage": "https://albertenez.com/",
+  "homepage": "https://albertenez.com",
+  "author": {
+    "name": "Albert Sabate Martinez",
+    "email": "albert@sabatemartinez.com",
+    "url": "https://albertenez.com/"
+  },
+  "license": "MIT",
+  "repository": "github:AlbertSabate/AlberTenez",
+  "bugs": "https://github.com/AlbertSabate/AlberTenez/issues",
+  "main": "src/index.js",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-scripts": "2.1.5"
@@ -11,7 +24,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test"
   },
   "eslintConfig": {
