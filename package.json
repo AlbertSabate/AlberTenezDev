@@ -2,8 +2,20 @@
   "name": "albertenez",
   "description": "Personal WebPage Albert sabaTE martiNEZ",
   "keywords": [
-    "albert", "alber", "sabate", "martinez", "tenez", "developer", "javascript",
-    "react", "engineer", "node", "nodejs", "node.js", "senior", "full-stack"
+    "albert",
+    "alber",
+    "sabate",
+    "martinez",
+    "tenez",
+    "developer",
+    "javascript",
+    "react",
+    "engineer",
+    "node",
+    "nodejs",
+    "node.js",
+    "senior",
+    "full-stack"
   ],
   "version": "0.1.0",
   "homepage": "https://albertenez.com",
@@ -24,7 +36,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "coverage": "npm test -- --coverage",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +48,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "coveralls": "^3.0.2"
+  }
 }
