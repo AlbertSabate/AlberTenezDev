@@ -6,7 +6,6 @@ cache:
   - node_modules
 install:
   - yarn install
-  - yarn snyk:protect
   - yarn snyk:test
 script:
   - yarn coverage
@@ -19,5 +18,3 @@ deploy:
   local_dir: build
   on:
     branch: master
-after_deploy:
-  - yarn snyk:monitor
