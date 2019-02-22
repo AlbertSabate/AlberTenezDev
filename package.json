@@ -34,14 +34,18 @@
     "react-scripts": "2.1.5"
   },
   "devDependencies": {
-    "coveralls": "^3.0.2"
+    "coveralls": "^3.0.2",
+    "snyk": "^1.134.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "coverage": "npm test -- --coverage",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "snyk:test": "snyk test",
+    "snyk:monitor": "snyk monitor",
+    "snyk:protect": "snyk protect"
   },
   "eslintConfig": {
     "extends": "react-app"

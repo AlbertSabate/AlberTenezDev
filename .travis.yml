@@ -4,10 +4,14 @@ node_js:
 cache:
   directories:
   - node_modules
+install:
+  - yarn install
+  - yarn snyk:protect
+  - yarn snyk:test
 script:
-  - npm run coverage
-  - npm run build
-  - npm run coveralls
+  - yarn coverage
+  - yarn build
+  - yarn coveralls
 deploy:
   provider: pages
   skip_cleanup: true
@@ -15,3 +19,5 @@ deploy:
   local_dir: build
   on:
     branch: master
+after_deploy:
+  - yarn snyk:monitor
