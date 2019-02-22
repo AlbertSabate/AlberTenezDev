@@ -5,10 +5,9 @@ cache:
   directories:
   - node_modules
 install:
-  - npm install -g snyk
   - yarn install
-  - snyk auth $SNYK_TOKEN
-  - snyk test
+  - SNYK_TOKEN=$SNYK_TOKEN yarn snyk:auth
+  - yarn snyk:test
 script:
   - yarn coverage
   - yarn build
