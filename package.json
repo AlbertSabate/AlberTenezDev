@@ -43,8 +43,7 @@
     "test": "react-scripts test",
     "coverage": "npm test -- --coverage",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "snyk:auth": "snyk auth",
-    "snyk:test": "snyk test"
+    "snyk": "snyk test"
   },
   "eslintConfig": {
     "extends": "react-app"
