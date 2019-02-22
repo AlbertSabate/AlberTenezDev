@@ -6,8 +6,9 @@ cache:
   - node_modules
 install:
   - yarn install
-  - yarn snyk:test
+  - yarn snyk:auth
 script:
+  - yarn snyk:test
   - yarn coverage
   - yarn build
   - yarn coveralls
