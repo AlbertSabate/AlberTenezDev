@@ -10,7 +10,7 @@ describe('#Loading', () => {
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it('should render the exact schema', () => {
+  it('should render the exact schema because css is in index.html', () => {
     const actual = shallow(
       <Loading />
     );
