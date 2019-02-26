@@ -21,7 +21,6 @@ class Header extends Component {
           <span>Albert Sabate</span>
         </div>
         <Menu mode="horizontal">
-          <Menu.Item key="home"><AnchorLink href="#home" offset="64">HOME</AnchorLink></Menu.Item>
           <Menu.Item key="about"><AnchorLink href="#about" offset="64">ABOUT</AnchorLink></Menu.Item>
           <Menu.Item key="what"><AnchorLink href="#what" offset="64">WHAT I DO</AnchorLink></Menu.Item>
           <Menu.Item key="works"><AnchorLink href="#works" offset="64">WORKS</AnchorLink></Menu.Item>
