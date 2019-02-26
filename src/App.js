@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
+import { Layout, Icon } from 'antd';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Loading from './components/loading/Loading';
-import { Layout } from 'antd';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 import './App.css';
 
-const { Header, Footer, Content } = Layout;
+import headerImg from './img/bg-original-min.jpg';
+
+const {
+  Content,
+  Header: HeaderAnt,
+  Footer: FooterAnt,
+} = Layout;
 
 class App extends Component {
   constructor() {
@@ -22,17 +31,66 @@ class App extends Component {
 
   render() {
     const { loading } = this.state;
+
     return (
-      <div className="App">
+      <div className="app">
         {loading && <Loading />}
-        <Layout>
-          <Header>Header</Header>
-          <Content><br /><br /><br /><br /><br /><br /><br /><br />f<br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />sd
-          <br /><br /><br /><br /><br /><br /><br /><br /><br />sd<br />
-          <br /><br /><br /><br /><br /><br /><br />s<br /><br /><br /><br /><br /><br /></Content>
-          <Footer>Footer</Footer>
+        <Layout className="layout">
+          <Header component={HeaderAnt} />
+          <Content className="container">
+            <div id="home" className="home" style={{ backgroundImage: `url(${headerImg})` }}>
+              <div className="introText">
+                <span className="myName">Albert Sabate</span>
+                <p className="workTitle">Senior Software Engineer</p>
+              </div>
+              <AnchorLink href="#about" offset="64"><Icon type="arrow-down" /></AnchorLink>
+            </div>
+            <div id="about" className="about">
+              <br />
+              <br />
+              <br />
+              <br />
+              about
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+            <div id="what" className="what">
+              <br />
+              <br />
+              <br />
+              <br />
+              what
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+            <div id="works" className="works">
+              <br />
+              <br />
+              <br />
+              <br />
+              works
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+            <div id="contact" className="contact">
+              <br />
+              <br />
+              <br />
+              <br />
+              contact
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+          </Content>
+          <Footer component={FooterAnt} />
         </Layout>
       </div>
     );
