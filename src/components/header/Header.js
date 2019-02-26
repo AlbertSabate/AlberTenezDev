@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Menu } from 'antd';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Header.css';
-import logo from '../../img/albert_icon.png';
+import logo from '../../img/albert_icon_50.jpg';
 
 
 class Header extends Component {
