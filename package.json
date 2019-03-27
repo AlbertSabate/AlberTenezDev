@@ -18,15 +18,15 @@
     "full-stack"
   ],
   "version": "0.1.0",
-  "homepage": "https://albertenez.com",
+  "homepage": "https://albertenez.dev",
   "author": {
     "name": "Albert Sabate Martinez",
     "email": "albert@sabatemartinez.com",
-    "url": "https://albertenez.com/"
+    "url": "https://albertenez.dev/"
   },
   "license": "MIT",
-  "repository": "github:AlbertSabate/AlberTenez",
-  "bugs": "https://github.com/AlbertSabate/AlberTenez/issues",
+  "repository": "github:AlbertSabate/AlberTenezDev",
+  "bugs": "https://github.com/AlbertSabate/AlberTenezDev/issues",
   "main": "src/index.js",
   "dependencies": {
     "antd": "^3.13.6",

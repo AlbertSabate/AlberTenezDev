@@ -23,7 +23,7 @@
 .home a {
   position: absolute;
   display: block;
-  bottom: 2.5rem;
+  bottom: 3rem;
   font-size: 3rem;
   color: rgba(0, 0, 0, .75);
   animation: shake 4s cubic-bezier(.36,.07,.19,.97) both;
