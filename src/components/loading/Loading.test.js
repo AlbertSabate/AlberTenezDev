@@ -20,6 +20,7 @@ describe('#Loading', () => {
         <div className="loading-bounce"></div>
       </div>
     );
+
     expect(actual.matchesElement(expected)).toBeTruthy();
   });
 });

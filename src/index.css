@@ -1,12 +1,36 @@
-body {
+html {
   font-family: 'Source Code Pro';
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: rgb(0, 102, 255);
+}
+
+a:hover {
+  color: rgb(0, 71, 179);
+}
+
+h3 {
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+  background: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .3);
 }
 
 @keyframes shake {
   2.5%, 22.5% {
     transform: translate3d(-1px, 0, 0);
   }
-  
+
   5%, 20% {
     transform: translate3d(2px, 0, 0);
   }

@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
+import Expertise from './Expertise';
 
-describe('#Header', () => {
+describe('#Expertise', () => {
   it('should renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Header info={{
-      menu: [],
-    }} />, div);
+    ReactDOM.render(<Expertise />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });

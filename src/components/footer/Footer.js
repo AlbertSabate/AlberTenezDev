@@ -1,21 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import './Footer.css';
 
-class Footer extends Component {
-  static propTypes = {
-    component: PropTypes.func.isRequired,
-  };
-
-  render() {
-    const FooterAnt = this.props.component;
-
-    return (
-      <FooterAnt className="footer">
-        Albert Sabate Martinez © 2019
-      </FooterAnt>
-    );
-  }
-}
+const Footer = (props) => {
+  return (
+    <footer className="footer">
+      {props.copyright}
+    </footer>
+  )
+};
+Footer.propTypes = {
+  copyright: PropTypes.string.isRequired,
+};
 
 export default Footer;

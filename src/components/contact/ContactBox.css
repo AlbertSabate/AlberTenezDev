@@ -1,0 +1,16 @@
+.contactBox {
+  flex: 1 1 175px;
+  margin: 1.5rem;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .3);
+}
+
+.contactBox a {
+  display: block;
+  padding: 3rem 1rem;
+}
+
+.contactBox a span {
+  display: block;
+}

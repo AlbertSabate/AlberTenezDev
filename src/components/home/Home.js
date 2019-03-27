@@ -1,21 +1,24 @@
-import React, { Component } from 'react';
-import { Icon } from 'antd';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { GoArrowSmallDown } from 'react-icons/go';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Home.css';
-import headerImg from '../../img/bg-original-min.jpg';
 
-class Home extends Component {
-  render() {
-    return (
-      <div id="home" className="home" style={{ backgroundImage: `url(${headerImg})` }}>
-        <div className="introText">
-          <h1>Albert Sabate</h1>
-          <h2>Senior Software Engineer</h2>
-        </div>
-        <AnchorLink href="#about" offset="64"><Icon type="arrow-down" /></AnchorLink>
+const Home = (props) => {
+  return (
+    <div id="home" className="home" style={{ backgroundImage: `url(${props.info.headerImg})` }}>
+      <div className="introText">
+        <h1>{props.info.title}</h1>
+        <h2>{props.info.subtitle}</h2>
       </div>
-    );
-  }
-}
+      <AnchorLink href={props.info.href} offset={props.info.offset}>
+        <GoArrowSmallDown />
+      </AnchorLink>
+    </div>
+  );
+};
+Home.propTypes = {
+  info: PropTypes.object.isRequired,
+};
 
 export default Home;

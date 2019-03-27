@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
+import ContactBox from './ContactBox';
 
-describe('#Header', () => {
+describe('#ContactBox', () => {
   it('should renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Header info={{
-      menu: [],
-    }} />, div);
+    ReactDOM.render(<ContactBox href="" text="" icon={() => null} />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });
