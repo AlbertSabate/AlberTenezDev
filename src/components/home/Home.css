@@ -14,18 +14,9 @@
   text-align: center;
 }
 
-.home .introText h1 {
-  font-size: 5vw;
-  font-weight: 700;
-}
-
-.home .introText h2 {
-  font-size: 3vw;
-}
-
 .home a {
   position: absolute;
-  bottom: 1rem;
+  bottom: 5rem;
   width: 5rem;
   height: 5rem;
   font-size: 5rem;

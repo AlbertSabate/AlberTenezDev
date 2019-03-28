@@ -18,12 +18,33 @@ a:hover {
   color: rgb(0, 71, 179);
 }
 
+h1 {
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
 h3 {
   margin: 0;
-  padding: 30px;
+  padding: 3rem;
+  font-size: 2rem;
   text-align: center;
   background: white;
   box-shadow: 0 0 1px rgba(0, 0, 0, .3);
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h6 {
+  margin-top: -2rem;
+  font-size: .75rem;
+  font-weight: 300;
 }
 
 @keyframes shake {

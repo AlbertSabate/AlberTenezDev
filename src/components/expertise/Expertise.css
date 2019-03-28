@@ -1,0 +1,39 @@
+.expertises {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.expertise {
+  background-color: white;
+  margin-bottom: 2rem;
+  padding: 1rem 3rem;
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+}
+
+.expertise:last-child {
+  margin: 0;
+}
+
+.expertise .title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.expertise .description {
+  margin-bottom: 1rem;
+}
+
+.expertise .tags {
+  display: flex;
+  flex-flow: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.expertise .tag {
+  margin: .25rem;
+  padding: .3rem 1rem;
+  border: 1px solid rgba(0, 0, 0, .7);
+  border-radius: 2px;
+}

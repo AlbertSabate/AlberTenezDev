@@ -5,7 +5,7 @@ import Employment from './Employment';
 describe('#Employment', () => {
   it('should renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Employment />, div);
+    ReactDOM.render(<Employment info={[]} />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });

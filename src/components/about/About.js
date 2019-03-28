@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import './About.css';
 
 const About = (props) => {
-  console.log('About', props);
   return (
     <div id="about">
       <h3>About</h3>

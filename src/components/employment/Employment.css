@@ -1,0 +1,16 @@
+.employments {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.employment {
+  background-color: white;
+  margin-bottom: 2rem;
+  padding: 1rem 3rem;
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+}
+
+.employment pre {
+  white-space: pre-wrap;
+}

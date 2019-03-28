@@ -11,7 +11,7 @@ const Home = (props) => {
         <h1>{props.info.title}</h1>
         <h2>{props.info.subtitle}</h2>
       </div>
-      <AnchorLink href={props.info.href} offset={props.info.offset}>
+      <AnchorLink href={props.info.href} offset={props.offset} aria-label="GoDown">
         <GoArrowSmallDown />
       </AnchorLink>
     </div>
