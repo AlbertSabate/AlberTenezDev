@@ -7,7 +7,7 @@ const ContactBox = (props) => {
 
   return (
     <div className="contactBox">
-      <a href={href} target="_blank" rel="noopener noreferrer">
+      <a aria-label={text} href={href} target="_blank" rel="noopener noreferrer">
         <Icon size="3rem" />
         <span>{text}</span>
       </a>

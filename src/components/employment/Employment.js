@@ -3,6 +3,7 @@ import React from 'react';
 import './Employment.css';
 
 const Employment = (props) => {
+  console.log('Employment', props);
   return (
     <div id="employment">
       <h3>EMPLOYMENT</h3>

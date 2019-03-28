@@ -7,6 +7,8 @@
   background-size: cover;
 }
 .home .introText {
+  width: 100%;
+  background: rgba(255,255,255,.4);
   color: rgba(0, 0, 0, .75);
   text-align: center;
 }
@@ -26,7 +28,9 @@
   width: 5rem;
   height: 5rem;
   font-size: 5rem;
+  background: rgba(255,255,255,.4);
   color: rgba(0, 0, 0, .75);
+  border-radius: 50%;
   animation: shake 4s cubic-bezier(.36, .07, .19, .97) both;
   animation-delay: 3s;
   animation-iteration-count: 10;

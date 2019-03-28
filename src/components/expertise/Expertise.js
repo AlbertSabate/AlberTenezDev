@@ -3,6 +3,7 @@ import React from 'react';
 import './Expertise.css';
 
 const Expertise = (props) => {
+  console.log('Expertise', props);
   return (
     <div id="expertise">
       <h3>EXPERTISE</h3>

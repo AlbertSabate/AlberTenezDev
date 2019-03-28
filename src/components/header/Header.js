@@ -15,8 +15,9 @@ const Header = (props) => {
           {props.info.menu.map(info => (
             <li key={info.id}>
               <AnchorLink
+                aria-label={info.text}
                 href={info.href}
-                offset={props.info.offset}
+                offset={props.offset}
               >
                 {info.text}
               </AnchorLink>
@@ -29,6 +30,7 @@ const Header = (props) => {
 };
 Header.propTypes = {
   info: PropTypes.object.isRequired,
+  offset: PropTypes.number.isRequired,
 };
 
 export default Header;

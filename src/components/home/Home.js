@@ -19,6 +19,7 @@ const Home = (props) => {
 };
 Home.propTypes = {
   info: PropTypes.object.isRequired,
+  offset: PropTypes.number.isRequired,
 };
 
 export default Home;

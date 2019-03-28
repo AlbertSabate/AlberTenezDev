@@ -1,0 +1,26 @@
+.about {
+  width: 75%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.about img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.about .name {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: .5rem;
+}
+
+.about .headline {
+  margin: .5rem 0;
+  font-size: 1.3rem;
+}
+
+.about .text {
+  margin: 5rem 0;
+  font-size: 1.1rem;
+}
