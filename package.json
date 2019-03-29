@@ -40,16 +40,14 @@
   "devDependencies": {
     "coveralls": "^3.0.2",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.9.1",
-    "snyk": "^1.134.2"
+    "enzyme-adapter-react-16": "^1.9.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "coverage": "npm test -- --coverage",
-    "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "snyk": "snyk test --severity-threshold=high"
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "eslintConfig": {
     "extends": "react-app"
