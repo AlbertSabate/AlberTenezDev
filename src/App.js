@@ -46,6 +46,11 @@ class App extends Component {
           <Expertise info={expertise} />
           <Employment info={employment} />
           <Contact info={contact} />
+          <div className="codementorX">
+            <a href="https://www.codementor.io/freelance-developers/javascript?utm_source=certified_badge&referral=albertsabate-" rel="noopener">
+              <img src="https://assets.codementor.io/cmx-dev-badge.svg" alt="CodementorX" />
+            </a>
+          </div>
           <Footer copyright={copyright} />
         </div>
       </div>

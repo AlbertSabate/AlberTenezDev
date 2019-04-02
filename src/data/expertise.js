@@ -1,7 +1,7 @@
 const expertise = [
   {
     "seniority": 8,
-    "description": "It was my first language when I decided to start coding, it is just an amazing language, it give you a lot of flexibility.\n\nI have worked in all of my projects with javascript since I started to code.",
+    "description": "It was my first language when I decided to start coding. It is just an amazing language, it gives you a lot of flexibility.\n\nI have worked in all of my projects with javascript since I started to code.",
     "category": {
       "display_name": "JavaScript",
       "url_string": "javascript"
@@ -47,16 +47,21 @@ const expertise = [
         "display_name": "Es6",
         "url_string": "es6"
       }
-    ]
+    ],
+    "personal_rating": 9
   },
   {
     "seniority": 3,
-    "description": "I still remember this days using jQuery, every plugin looked like a mess... After years coding with jQuery and Prototypes we say hello to AngularJS, this framework looked so cool at the begninning since Angular2 arrives... I tried and I give up, so heavy, has 1000 things I don't want and is there. And then time to try React, everybody is talking about and I had the same impression I had before with NodeJS. I just love it!",
+    "description": "I just love it!",
     "category": {
       "display_name": "React",
       "url_string": "reactjs"
     },
     "tags": [
+      {
+        "display_name": "Git",
+        "url_string": "git"
+      },
       {
         "display_name": "Enzyme",
         "url_string": "enzyme"
@@ -68,10 +73,6 @@ const expertise = [
       {
         "display_name": "Oauth2",
         "url_string": "oauth2"
-      },
-      {
-        "display_name": "Html 5 / css 3",
-        "url_string": "html-5-css-3"
       },
       {
         "display_name": "React router",
@@ -97,11 +98,12 @@ const expertise = [
         "display_name": "Npm",
         "url_string": "npm"
       }
-    ]
+    ],
+    "personal_rating": 8
   },
   {
     "seniority": 4,
-    "description": "I started to use NodeJS when was just in beta, and I just love it. So when the first stable version arrived to the market I started to use for production environments, until now. Mostly used to code REST API with Express.",
+    "description": "I started to use NodeJS when it was just in beta, and I just love it. When the first stable version was introduced into the market, I started to use it for production environments and have been using it ever since. Mostly I code REST API with Express.",
     "category": {
       "display_name": "Node.js",
       "url_string": "nodejs"
@@ -147,19 +149,20 @@ const expertise = [
         "display_name": "Npm",
         "url_string": "npm"
       }
-    ]
+    ],
+    "personal_rating": 9
   },
   {
     "seniority": 1,
-    "description": "Just starting to learn more seriously how DevOps world works. I have working experience with RedHat Openshift, Kubernetes, Docker and CI/CD pipelines with Jenkins and GoCD. Also I worked with AWS for basic implementations.",
+    "description": "Just starting to learn more seriously about how DevOps world works. I have working experience with RedHat Openshift, Kubernetes, Docker and CI/CD pipelines with Jenkins and GoCD. Also I worked with AWS for basic implementations.",
     "category": {
       "display_name": "DevOps",
       "url_string": "devops"
     },
     "tags": [
       {
-        "display_name": "Elasticsearch",
-        "url_string": "elasticsearch"
+        "display_name": "Nginx",
+        "url_string": "nginx"
       },
       {
         "display_name": "Load balancer",
@@ -197,7 +200,47 @@ const expertise = [
         "display_name": "Openshift",
         "url_string": "openshift"
       }
-    ]
+    ],
+    "personal_rating": 5
+  },
+  {
+    "seniority": 8,
+    "description": "As a FullStack Web Developer, I had to work in all of my projects with HTML/CSS, with javascript in frontend we always have to manipulate it.",
+    "category": {
+      "display_name": "HTML/CSS",
+      "url_string": "html_css"
+    },
+    "tags": [
+      {
+        "display_name": "CSS3",
+        "url_string": "css3"
+      },
+      {
+        "display_name": "Html 5 / css 3",
+        "url_string": "html-5-css-3"
+      },
+      {
+        "display_name": "Bootstrap",
+        "url_string": "bootstrap"
+      },
+      {
+        "display_name": "Less",
+        "url_string": "less"
+      },
+      {
+        "display_name": "Canvas",
+        "url_string": "canvas"
+      },
+      {
+        "display_name": "HTML5",
+        "url_string": "html5"
+      },
+      {
+        "display_name": "Sass/css",
+        "url_string": "sass-css"
+      }
+    ],
+    "personal_rating": 9
   }
 ];
 
