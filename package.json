@@ -46,7 +46,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "coverage": "npm test -- --coverage",
+    "coverage": "npm test -- --coverage --watchAll=false",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "eslintConfig": {
@@ -66,10 +66,18 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/**/*.{js}",
-      "!src/index.js",
-      "!src/serviceWorker.js",
-      "!src/data/*.js"
-    ]
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/src/index.js",
+      "!<rootDir>/src/serviceWorker.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    }
   }
 }
