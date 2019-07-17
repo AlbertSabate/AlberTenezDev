@@ -7,3 +7,14 @@
   bottom: 5px;
   right: 5px;
 }
+
+.cka {
+  position: fixed;
+  bottom: 5px;
+  right: 175px;
+  width: 73px;
+}
+
+.cka img {
+  width: 100%;
+}

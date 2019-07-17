@@ -46,12 +46,17 @@ class App extends Component {
           <Expertise info={expertise} />
           <Employment info={employment} />
           <Contact info={contact} />
-          <div className="codementorX">
-            <a href="https://www.codementor.io/freelance-developers/javascript?utm_source=certified_badge&referral=albertsabate-" rel="noopener">
-              <img src="https://assets.codementor.io/cmx-dev-badge.svg" alt="CodementorX" />
-            </a>
-          </div>
           <Footer copyright={copyright} />
+        </div>
+        <div className="codementorX">
+          <a href="https://www.codementor.io/freelance-developers/javascript?utm_source=certified_badge&referral=albertsabate-" target="codementorx" rel="noopener noreferrer">
+            <img src="https://assets.codementor.io/cmx-dev-badge.svg" alt="CodementorX" />
+          </a>
+        </div>
+        <div className="cka">
+          <a href="https://www.youracclaim.com/badges/476b2c37-e45e-4863-85ca-088e73723783/public_url" target="cka" rel="noopener noreferrer">
+            <img src="https://images.youracclaim.com/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka%2Bfrom%2Bcncfsite%2B_281_29.png" alt="CKA" />
+          </a>
         </div>
       </div>
     );
