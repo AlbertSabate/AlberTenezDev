@@ -35,7 +35,8 @@
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-scripts": "3.0.1",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "snyk": "^1.193.2"
   },
   "devDependencies": {
     "coveralls": "^3.0.5",
@@ -47,7 +48,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "coverage": "npm test -- --coverage --watchAll=false",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -79,5 +82,6 @@
         "statements": 90
       }
     }
-  }
+  },
+  "snyk": true
 }
